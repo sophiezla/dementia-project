@@ -32,6 +32,6 @@ ever to understand the spread of this disease.
 ```{r}
 #| label: Overview graph
 #| echo: false
-knitr::include_graphics("overview_graphic.png")
+knitr::include_graphics("graphs/overview_graphic.png")
 ```
 
