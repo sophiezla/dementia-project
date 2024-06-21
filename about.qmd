@@ -1,0 +1,11 @@
+---
+title: "About"
+---
+
+## About Me:
+
+## About This Project:
+
+This project was made as a part of Kane's Data Science Course
+
+<https://bootcamp.davidkane.info/>

@@ -1,0 +1,30 @@
+---
+title: "Graphs"
+execute:
+  echo: false
+---
+
+Here is a deeper look into specific demographics...
+
+
+```{r}
+#| message: false
+#| label: setup
+
+library(tidyverse)
+library(knitr)
+```
+
+```{r}
+#| label: Dementia rates
+knitr::include_graphics("dementia_rates.png")
+```
+
+Among a group of individuals ranging in age from 60 to 100, more than a third were demented.
+
+```{r}
+#| label: Age distribution
+knitr::include_graphics("age_distribution_demented.png")
+```
+
+Of those with dementia, there was a high amount of people ages 70 through 80.

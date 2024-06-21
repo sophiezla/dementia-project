@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "sources.html",
+    "href": "sources.html",
+    "title": "Sources",
+    "section": "",
+    "text": "The following sources were used in this project…"
+  },
+  {
+    "objectID": "sources.html#dataset-1-dementia_dataset.csv",
+    "href": "sources.html#dataset-1-dementia_dataset.csv",
+    "title": "Sources",
+    "section": "Dataset 1 (dementia_dataset.csv)",
+    "text": "Dataset 1 (dementia_dataset.csv)\nThe data used in some sections of this project was downloaded from Kaggle\n\nhttps://www.kaggle.com/datasets/shashwatwork/dementia-prediction-dataset"
+  },
+  {
+    "objectID": "sources.html#dataset-2-dementia_patients_health_data.csv",
+    "href": "sources.html#dataset-2-dementia_patients_health_data.csv",
+    "title": "Sources",
+    "section": "Dataset 2 (dementia_patients_health_data.csv)",
+    "text": "Dataset 2 (dementia_patients_health_data.csv)\nThe other data used in this project was also downloaded from Kaggle\n\nhttps://www.kaggle.com/datasets/kaggler2412/dementia-patient-health-and-prescriptions-dataset/data"
+  },
+  {
+    "objectID": "graphs.html",
+    "href": "graphs.html",
+    "title": "Graphs",
+    "section": "",
+    "text": "Here is a deeper look into specific demographics…\n\n\n\n\n\n\n\n\n\nAmong a group of individuals ranging in age from 60 to 100, more than a third were demented.\n\n\n\n\n\n\n\n\n\nOf those with dementia, there was a high amount of people ages 70 through 80."
+  },
+  {
+    "objectID": "about.html#about-this-project",
+    "href": "about.html#about-this-project",
+    "title": "About",
+    "section": "About This Project:",
+    "text": "About This Project:\nThis project was made as a part of Kane’s Data Science Course\nhttps://bootcamp.davidkane.info/"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Overview",
+    "section": "",
+    "text": "Though commonly thought of as a disease, dementia is more of a group of symptoms that impair cognitive function. These symptoms may be caused by a variety of other diseases, such as Alzheimer’s, Huntington’s, Lewy body, or multiple of these combined. It is unfortunately associated with the misconception that it comes naturally with age.\nDementia is characterized by the main symptoms being:\n  - Memory loss\n  \n  - Communication problems\n  \n  - Confusion or disorientation\n  \n  - Difficulty with certain tasks\n  \n  - Problems with movement\n  \n  \nThese symptoms can negatively impact a person’s life. It can make everyday tasks that were once easy seem difficult.\nNow, with Dementia being considered a very common condition, it is more important than ever to understand the spread of this disease.\n\nDementia Demographic Spread"
+  }
+]

@@ -1,0 +1,37 @@
+---
+title: "Overview"
+---
+
+Though commonly thought of as a disease, dementia is more of a group of symptoms 
+that impair cognitive function. These symptoms may be caused by a variety of other
+diseases, such as Alzheimer's, Huntington's, Lewy body, or multiple of these combined.
+It is unfortunately associated with the misconception that it comes naturally with age.
+
+Dementia is characterized by the main symptoms being:
+
+      - Memory loss
+      
+      - Communication problems
+      
+      - Confusion or disorientation
+      
+      - Difficulty with certain tasks
+      
+      - Problems with movement
+      
+      
+These symptoms can negatively impact a person's life. It can make everyday tasks that
+were once easy seem difficult. 
+
+Now, with Dementia being considered a very common condition, it is more important than
+ever to understand the spread of this disease.
+
+# **Dementia Demographic Spread**
+
+ 
+```{r}
+#| label: Overview graph
+#| echo: false
+knitr::include_graphics("overview_graphic.png")
+```
+
