@@ -28,3 +28,4 @@ knitr::include_graphics("graphs/age_distribution_demented.png")
 ```
 
 Of those with dementia, there was a high amount of people ages 70 through 80.
+

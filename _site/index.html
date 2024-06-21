@@ -93,12 +93,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./graphs.html"> 
 <span class="menu-text">Graphs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./sources.html"> 
@@ -161,17 +161,18 @@ ul.task-list li input[type="checkbox"] {
   </code></pre>
 <p>These symptoms can negatively impact a person’s life. It can make everyday tasks that were once easy seem difficult.</p>
 <p>Now, with Dementia being considered a very common condition, it is more important than ever to understand the spread of this disease.</p>
-<section id="dementia-demographic-spread" class="level1">
-<h1><strong>Dementia Demographic Spread</strong></h1>
+<section id="dementia-demographic-spread" class="level2">
+<h2 class="anchored" data-anchor-id="dementia-demographic-spread"><strong>Dementia Demographic Spread</strong></h2>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="overview_graphic.png" class="img-fluid figure-img" width="1592"></p>
+<p><img src="graphs/overview_graphic.png" class="img-fluid figure-img" width="1592"></p>
 </figure>
 </div>
 </div>
 </div>
+<p>Interestingly, most other groups do not appear to have significant correlation between the populations of people with and without Dementia, except for the variable of having APOE e4. APOE e4 is a gene that is associated with a greatly increased risk for Alzheimer’s.</p>
 
 
 </section>
@@ -258,7 +259,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/20780312-5838-41cc-8729-c4e636b56770\.netlify\.app\/");
+      var filterRegex = new RegExp("https:\/\/sophiezla\.quarto\.pub\/dementia-demographics");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

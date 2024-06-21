@@ -19,4 +19,4 @@ age_plot <- ggplot(demented_data, aes(x = Age)) +
     plot.margin = margin(t = 20, r = 20, b = 20, l = 20)
   )
 
-ggsave("age_distribution_demented.png", age_plot)
+ggsave("age_distribution_demented1.png", age_plot)

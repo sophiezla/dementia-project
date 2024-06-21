@@ -11,14 +11,14 @@
     "href": "sources.html#dataset-1-dementia_dataset.csv",
     "title": "Sources",
     "section": "Dataset 1 (dementia_dataset.csv)",
-    "text": "Dataset 1 (dementia_dataset.csv)\nThe data used in some sections of this project was downloaded from Kaggle\n\nhttps://www.kaggle.com/datasets/shashwatwork/dementia-prediction-dataset"
+    "text": "Dataset 1 (dementia_dataset.csv)\nThe data used in some sections of this project was downloaded from Kaggle. This dataset, “Dementia Prediction Dataset” contains data from 150 patients ages 60 through 96.\n\nhttps://www.kaggle.com/datasets/shashwatwork/dementia-prediction-dataset"
   },
   {
     "objectID": "sources.html#dataset-2-dementia_patients_health_data.csv",
     "href": "sources.html#dataset-2-dementia_patients_health_data.csv",
     "title": "Sources",
     "section": "Dataset 2 (dementia_patients_health_data.csv)",
-    "text": "Dataset 2 (dementia_patients_health_data.csv)\nThe other data used in this project was also downloaded from Kaggle\n\nhttps://www.kaggle.com/datasets/kaggler2412/dementia-patient-health-and-prescriptions-dataset/data"
+    "text": "Dataset 2 (dementia_patients_health_data.csv)\nThe other data used in this project was also downloaded from Kaggle. This dataset, “Dementia Patient Health, Prescriptions ML Dataset” contains data from 1,000 patients ages 60 through 90.\n\nhttps://www.kaggle.com/datasets/kaggler2412/dementia-patient-health-and-prescriptions-dataset/data"
   },
   {
     "objectID": "graphs.html",
@@ -28,17 +28,38 @@
     "text": "Here is a deeper look into specific demographics…\n\n\n\n\n\n\n\n\n\nAmong a group of individuals ranging in age from 60 to 100, more than a third were demented.\n\n\n\n\n\n\n\n\n\nOf those with dementia, there was a high amount of people ages 70 through 80."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hello, I am Sophie Zhu and I am a high school student from California.\nGithub account: https://github.com/sophiezla\nContact me: sophie2024la@gmail.com"
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "Hello, I am Sophie Zhu and I am a high school student from California.\nGithub account: https://github.com/sophiezla\nContact me: sophie2024la@gmail.com"
+  },
+  {
     "objectID": "about.html#about-this-project",
     "href": "about.html#about-this-project",
     "title": "About",
     "section": "About This Project:",
-    "text": "About This Project:\nThis project was made as a part of Kane’s Data Science Course\nhttps://bootcamp.davidkane.info/"
+    "text": "About This Project:\nFind the Github repository here: https://github.com/sophiezla/dementia-project\nThis project was created as a part of Kane’s Data Science Bootcamp.\nhttps://bootcamp.davidkane.info/"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Overview",
     "section": "",
-    "text": "Though commonly thought of as a disease, dementia is more of a group of symptoms that impair cognitive function. These symptoms may be caused by a variety of other diseases, such as Alzheimer’s, Huntington’s, Lewy body, or multiple of these combined. It is unfortunately associated with the misconception that it comes naturally with age.\nDementia is characterized by the main symptoms being:\n  - Memory loss\n  \n  - Communication problems\n  \n  - Confusion or disorientation\n  \n  - Difficulty with certain tasks\n  \n  - Problems with movement\n  \n  \nThese symptoms can negatively impact a person’s life. It can make everyday tasks that were once easy seem difficult.\nNow, with Dementia being considered a very common condition, it is more important than ever to understand the spread of this disease.\n\nDementia Demographic Spread"
+    "text": "Though commonly thought of as a disease, dementia is more of a group of symptoms that impair cognitive function. These symptoms may be caused by a variety of other diseases, such as Alzheimer’s, Huntington’s, Lewy body, or multiple of these combined. It is unfortunately associated with the misconception that it comes naturally with age.\nDementia is characterized by the main symptoms being:\nThese symptoms can negatively impact a person’s life. It can make everyday tasks that were once easy seem difficult.\nNow, with Dementia being considered a very common condition, it is more important than ever to understand the spread of this disease."
+  },
+  {
+    "objectID": "index.html#dementia-demographic-spread",
+    "href": "index.html#dementia-demographic-spread",
+    "title": "Overview",
+    "section": "Dementia Demographic Spread",
+    "text": "Dementia Demographic Spread\n\n\n\n\n\n\n\n\n\nInterestingly, most other groups do not appear to have significant correlation between the populations of people with and without Dementia, except for the variable of having APOE e4. APOE e4 is a gene that is associated with a greatly increased risk for Alzheimer’s."
   }
 ]

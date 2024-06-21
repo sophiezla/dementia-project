@@ -26,7 +26,7 @@ were once easy seem difficult.
 Now, with Dementia being considered a very common condition, it is more important than
 ever to understand the spread of this disease.
 
-# **Dementia Demographic Spread**
+## **Dementia Demographic Spread**
 
  
 ```{r}
@@ -35,3 +35,4 @@ ever to understand the spread of this disease.
 knitr::include_graphics("graphs/overview_graphic.png")
 ```
 
+Interestingly, most other groups do not appear to have significant correlation between the populations of people with and without Dementia, except for the variable of having APOE e4. APOE e4 is a gene that is associated with a greatly increased risk for Alzheimer's.
