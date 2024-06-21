@@ -3,9 +3,16 @@ title: "About"
 ---
 
 ## About Me:
+Hello, I am Sophie Zhu and I am a high school student from California. 
+
+Github account: https://github.com/sophiezla
+
+Contact me: sophie2024la@gmail.com
 
 ## About This Project:
 
-This project was made as a part of Kane's Data Science Course
+Find the Github repository here: https://github.com/sophiezla/dementia-project
+
+This project was created as a part of Kane’s Data Science Bootcamp.
 
 <https://bootcamp.davidkane.info/>

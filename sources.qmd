@@ -4,12 +4,15 @@ title: <u>Sources</u>
 The following sources were used in this project...
 
 ##    Dataset 1 (dementia_dataset.csv)
-The data used in some sections of this project was downloaded from Kaggle
+The data used in some sections of this project was downloaded from Kaggle. This 
+dataset, "Dementia Prediction Dataset" contains data from 150 patients ages 60 through 96.
 
 - https://www.kaggle.com/datasets/shashwatwork/dementia-prediction-dataset
 
 
 ##  Dataset 2 (dementia_patients_health_data.csv)
-The other data used in this project was also downloaded from Kaggle
+The other data used in this project was also downloaded from Kaggle. This dataset,
+"Dementia Patient Health, Prescriptions ML Dataset" contains data from 1,000 patients
+ages 60 through 90.
 
 - https://www.kaggle.com/datasets/kaggler2412/dementia-patient-health-and-prescriptions-dataset/data
