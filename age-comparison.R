@@ -1,14 +1,14 @@
 library(tidyverse)
 data <- read_csv("data/dementia_dataset.csv")
 
-# Filter the data for demented people
-demented_data <- data %>% filter(Group == "Demented")
+# Filter the data for people with dementia
+d_data <- data %>% filter(Group == "Dementia")
 
-# Create a histogram of the ages of demented people
-age_plot <- ggplot(demented_data, aes(x = Age)) +
+# Create a histogram of the ages of those people
+age_plot <- ggplot(d_data, aes(x = Age)) +
   geom_histogram(binwidth = 5, fill = "steelblue", color = "black") +
   labs(
-    title = "Age Distribution of Demented People",
+    title = "Age Distribution of People with Dementia",
     x = "Age",
     y = "Count",
     caption = "Source: dementia_dataset.csv"
@@ -19,4 +19,4 @@ age_plot <- ggplot(demented_data, aes(x = Age)) +
     plot.margin = margin(t = 20, r = 20, b = 20, l = 20)
   )
 
-ggsave("age_distribution_demented1.png", age_plot)
+ggsave("age_distribution_dementia.png", age_plot)

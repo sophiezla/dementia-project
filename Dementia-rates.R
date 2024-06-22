@@ -1,11 +1,10 @@
+# Load necessary libraries
 library(tidyverse)
+
+# Read the data
 data <- read_csv("data/dementia_dataset.csv")
 
-# Replace NA values in the Group column with "Nondemented"
-data <- data %>% 
-  mutate(Group = if_else(is.na(Group), "Nondemented", Group))
-
-# Replace NA values and convert "Converted" to "Nondemented"
+# Clean up the 'Group' column
 data <- data %>% 
   mutate(Group = case_when(
     is.na(Group) ~ "Nondemented",
@@ -13,10 +12,11 @@ data <- data %>%
     TRUE ~ Group
   ))
 
-# Create a bar graph comparing the number of demented people to nondemented
+# Create a bar graph comparing the number of people with dementia to people without
 d_overview_plot <- ggplot(data, aes(x = Group)) +
   geom_bar(width = 0.5, aes(fill = Group)) +
-  scale_fill_manual(values = c( "darkred","steelblue"), labels = c("Demented", "Nondemented")) +
+  scale_fill_manual(values = c("Demented" = "darkred", "Nondemented" = "steelblue"), 
+                    labels = c("Demented" = "People with dementia", "Nondemented" = "People without dementia")) +
   labs(
     title = "Number of People with and without Dementia",
     x = "Dementia Status",
@@ -28,6 +28,8 @@ d_overview_plot <- ggplot(data, aes(x = Group)) +
   theme(
     plot.title = element_text(hjust = 0.5, face = "bold"),  # Center and bold title
     legend.position = "top",
-    legend.title = element_text(face = "bold"))  # Bold legend title
+    legend.title = element_text(face = "bold")  # Bold legend title
+  )
 
+# Save the plot
 ggsave("dementia_rates.png", d_overview_plot)

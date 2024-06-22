@@ -25,7 +25,7 @@
     "href": "graphs.html",
     "title": "Graphs",
     "section": "",
-    "text": "Here is a deeper look into specific demographics…\n\n\n\n\n\n\n\n\n\nAmong a group of individuals ranging in age from 60 to 100, more than a third were demented.\n\n\n\n\n\n\n\n\n\nOf those with dementia, there was a high amount of people ages 70 through 80."
+    "text": "Here is a deeper look into specific demographics…\n\n\n\n\n\n\n\n\n\nAmong a group of 150 individuals ranging in age from 60 to 100, more than a third were demented.\n\n\n\n\n\n\n\n\n\nOf those with dementia in the group of 150 individuals, there was a high amount of people ages 70 through 80.\n\n\n\n\n\n\n\n\n\nIn a group of 1,000 individuals, all people with dementia had cognitive test scores below 7.5"
   },
   {
     "objectID": "about.html",
@@ -51,15 +51,29 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Overview",
+    "title": "Dementia Demographics",
     "section": "",
-    "text": "Though commonly thought of as a disease, dementia is more of a group of symptoms that impair cognitive function. These symptoms may be caused by a variety of other diseases, such as Alzheimer’s, Huntington’s, Lewy body, or multiple of these combined. It is unfortunately associated with the misconception that it comes naturally with age.\nDementia is characterized by the main symptoms being:\nThese symptoms can negatively impact a person’s life. It can make everyday tasks that were once easy seem difficult.\nNow, with Dementia being considered a very common condition, it is more important than ever to understand the spread of this disease."
+    "text": "Interestingly, most other groups do not appear to have significant correlation between the populations of people with and without Dementia, except for the variable of having APOE e4. APOE e4 is a gene that is associated with a greatly increased risk for Alzheimer’s."
   },
   {
     "objectID": "index.html#dementia-demographic-spread",
     "href": "index.html#dementia-demographic-spread",
-    "title": "Overview",
-    "section": "Dementia Demographic Spread",
-    "text": "Dementia Demographic Spread\n\n\n\n\n\n\n\n\n\nInterestingly, most other groups do not appear to have significant correlation between the populations of people with and without Dementia, except for the variable of having APOE e4. APOE e4 is a gene that is associated with a greatly increased risk for Alzheimer’s."
+    "title": "Dementia Demographics",
+    "section": "",
+    "text": "Interestingly, most other groups do not appear to have significant correlation between the populations of people with and without Dementia, except for the variable of having APOE e4. APOE e4 is a gene that is associated with a greatly increased risk for Alzheimer’s."
+  },
+  {
+    "objectID": "index.html#summary",
+    "href": "index.html#summary",
+    "title": "Dementia Demographics",
+    "section": "Summary",
+    "text": "Summary\nThe spread of dementia across different demographics appears to be associated with only certain groups. The data sets used were sourced from Kaggle which contained de-identified data of a selection of patients. The data sets were individually analyzed and graphed to show relationships between the prevalence of dementia among different groups. From this, it was found that people with the gene APOE e4 are much more common among people with dementia."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Dementia Demographics",
+    "section": "Overview",
+    "text": "Overview\nThough commonly thought of as a disease, dementia is more of a group of symptoms that impair cognitive function. These symptoms may be caused by a variety of other diseases, such as Alzheimer’s, Huntington’s, Lewy body, or multiple of these combined. It is unfortunately associated with the misconception that it comes naturally with age.\nDementia is characterized by the main symptoms being:\n  - Memory loss\n  \n  - Communication problems\n  \n  - Confusion or disorientation\n  \n  - Difficulty with certain tasks\n  \n  - Problems with movement\n  \n  \nThese symptoms can negatively impact a person’s life. It can make everyday tasks that were once easy seem difficult.\nNow, with Dementia being considered a very common condition, it is more important than ever to understand the spread of this disease."
   }
 ]

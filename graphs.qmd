@@ -6,7 +6,6 @@ execute:
 
 Here is a deeper look into specific demographics...
 
-
 ```{r}
 #| message: false
 #| label: setup
@@ -20,12 +19,25 @@ library(knitr)
 knitr::include_graphics("graphs/dementia_rates.png")
 ```
 
-Among a group of individuals ranging in age from 60 to 100, more than a third were demented.
+Among a group of 150 individuals ranging in age from 60 to 100, more than a third were demented.
 
 ```{r}
 #| label: Age distribution
 knitr::include_graphics("graphs/age_distribution_demented.png")
 ```
 
-Of those with dementia, there was a high amount of people ages 70 through 80.
+Of those with dementia in the group of 150 individuals, there was a high amount of people ages 70 through 80.
 
+```{r}
+#| label: Cognitive test scores
+knitr::include_graphics("graphs/cognitive_test_scores.png")
+```
+
+In a group of 1,000 individuals, all people with dementia had cognitive test scores below 7.5
+
+```{r}
+#| label: Education levels
+knitr::include_graphics("graphs/education_levels.png")
+```
+
+Education levels do not vary largely.

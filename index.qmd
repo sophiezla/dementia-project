@@ -1,7 +1,12 @@
 ---
-title: "Overview"
 ---
 
+## **Summary**
+The spread of dementia across different demographics appears to be associated with only 
+certain groups. The data sets used were sourced from Kaggle which contained de-identified data
+of a selection of patients. The data sets were individually analyzed and graphed to show relationships between the prevalence of dementia among different groups. From this, it was found that people with the gene APOE e4 are much more common among people with dementia.
+
+## **Overview**
 Though commonly thought of as a disease, dementia is more of a group of symptoms 
 that impair cognitive function. These symptoms may be caused by a variety of other
 diseases, such as Alzheimer's, Huntington's, Lewy body, or multiple of these combined.
