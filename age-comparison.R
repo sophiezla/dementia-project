@@ -2,7 +2,7 @@ library(tidyverse)
 data <- read_csv("data/dementia_dataset.csv")
 
 # Filter the data for people with dementia
-d_data <- data %>% filter(Group == "Dementia")
+d_data <- data %>% filter(Group == "Demented")
 
 # Create a histogram of the ages of those people
 age_plot <- ggplot(d_data, aes(x = Age)) +

@@ -19,14 +19,21 @@ library(knitr)
 knitr::include_graphics("graphs/dementia_rates.png")
 ```
 
-Among a group of 150 individuals ranging in age from 60 to 100, more than a third were demented.
+Among a group of 150 individuals ranging in age from 60 to 96, more than a third were demented.
 
 ```{r}
 #| label: Age distribution
-knitr::include_graphics("graphs/age_distribution_demented.png")
+knitr::include_graphics("graphs/age_distribution_dementia.png")
 ```
 
 Of those with dementia in the group of 150 individuals, there was a high amount of people ages 70 through 80.
+
+```{r}
+#| label: Social economic status
+knitr::include_graphics("graphs/SES.png")
+```
+
+In the 150 individual group, the median social economic status was level 4.
 
 ```{r}
 #| label: Cognitive test scores
@@ -41,3 +48,6 @@ knitr::include_graphics("graphs/education_levels.png")
 ```
 
 Education levels do not vary largely.
+
+
+
