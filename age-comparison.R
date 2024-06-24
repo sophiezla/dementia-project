@@ -6,7 +6,7 @@ d_data <- data %>% filter(Group == "Demented")
 
 # Create a histogram of the ages of those people
 age_plot <- ggplot(d_data, aes(x = Age)) +
-  geom_histogram(binwidth = 5, fill = "steelblue", color = "black") +
+  geom_histogram(binwidth = 5, fill = "steelblue") +
   labs(
     title = "Age Distribution of People with Dementia",
     x = "Age",

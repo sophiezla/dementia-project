@@ -17,6 +17,7 @@ d_overview_plot <- ggplot(data, aes(x = Group)) +
   geom_bar(width = 0.5, aes(fill = Group)) +
   scale_fill_manual(values = c("Demented" = "darkred", "Nondemented" = "steelblue"), 
                     labels = c("Demented" = "People with dementia", "Nondemented" = "People without dementia")) +
+  scale_x_discrete(labels = c("Demented" = "People with dementia", "Nondemented" = "People without dementia")) +
   labs(
     title = "Number of People with and without Dementia",
     x = "Dementia Status",
@@ -33,3 +34,4 @@ d_overview_plot <- ggplot(data, aes(x = Group)) +
 
 # Save the plot
 ggsave("dementia_rates.png", d_overview_plot)
+

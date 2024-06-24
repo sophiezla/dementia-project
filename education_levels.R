@@ -1,23 +1,29 @@
-# Load necessary libraries
 library(tidyverse)
 
 # Read the data
 data <- read.csv("data/dementia_patients_health_data.csv")
 
-# Convert Dementia to a factor
-data$Dementia <- factor(data$Dementia, levels = c(0, 1), labels = c("People with dementia", "People without dementia"))
+# Convert dementia to a factor
+data$Dementia <- factor(data$Dementia, levels = c(0, 1), labels = c("People with dementia", 
+                                                                    "People without dementia"))
 
 # Specify the order of education levels
-education_order <- c("No School", "Primary School", "Secondary School", "Diploma/Degree")
+education_order <- c("No School",
+                     "Primary School", 
+                     "Secondary School", 
+                     "Diploma/Degree")
 
 # Reorder the Education_Level factor
 data$Education_Level <- factor(data$Education_Level, levels = education_order)
 
-# Create the faceted bar graph with custom colors and improved title and labels
+# Create the faceted bar graph 
 ggplot(data, aes(x = Education_Level, fill = Dementia)) +
   geom_bar() +
   facet_grid(~ Dementia, scales = "free_y", switch = "x") +
-  scale_fill_manual(values = c( "People with dementia" = "darkred", "People without dementia" = "steelblue")) +
+  # Add colors
+  scale_fill_manual(values = c( "People with dementia" = "darkred", 
+                                "People without dementia" = "steelblue")) +
+  # Add labels
   labs(
     title = "Comparison of Education Levels Between People with and without Dementia",
     x = "Education Level",
@@ -25,7 +31,9 @@ ggplot(data, aes(x = Education_Level, fill = Dementia)) +
     fill = "Dementia Status",
     caption = "Source: dementia_patients_health_data.csv"
   ) +
+  # Give the graph a cleaner theme
   theme_minimal() +
+  # Adjust text size for better readability
   theme(
     plot.title = element_text(size = 16, face = "bold", hjust = 0.5, margin = margin(b = 20)),
     axis.title.x = element_text(size = 14, face = "bold", margin = margin(t = 20)),
@@ -39,4 +47,5 @@ ggplot(data, aes(x = Education_Level, fill = Dementia)) +
     strip.placement = "outside"
   )
 
+# Save graph as a png
 ggsave("education_levels.png", plot = last_plot())

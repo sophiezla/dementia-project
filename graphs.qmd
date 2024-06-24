@@ -9,13 +9,14 @@ Here is a deeper look into specific demographics...
 ```{r}
 #| message: false
 #| label: setup
-
+# Add necessary packages
 library(tidyverse)
 library(knitr)
 ```
 
 ```{r}
 #| label: Dementia rates
+# Add the dementia rates png
 knitr::include_graphics("graphs/dementia_rates.png")
 ```
 
@@ -23,6 +24,7 @@ Among a group of 150 individuals ranging in age from 60 to 96, more than a third
 
 ```{r}
 #| label: Age distribution
+# Add the age distribution png
 knitr::include_graphics("graphs/age_distribution_dementia.png")
 ```
 
@@ -30,6 +32,7 @@ Of those with dementia in the group of 150 individuals, there was a high amount 
 
 ```{r}
 #| label: Social economic status
+# Add the social economic status png
 knitr::include_graphics("graphs/SES.png")
 ```
 
@@ -37,6 +40,7 @@ In the 150 individual group, the median social economic status was level 4.
 
 ```{r}
 #| label: Cognitive test scores
+# Add the cognitive scores png
 knitr::include_graphics("graphs/cognitive_test_scores.png")
 ```
 
@@ -44,6 +48,7 @@ In a group of 1,000 individuals, all people with dementia had cognitive test sco
 
 ```{r}
 #| label: Education levels
+# Add the education levels png
 knitr::include_graphics("graphs/education_levels.png")
 ```
 
