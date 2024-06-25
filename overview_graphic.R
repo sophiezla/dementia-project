@@ -6,7 +6,7 @@ library(tidyr) # For pivot_longer
 # Load the data
 data <- read.csv("data/dementia_patients_health_data.csv")
 
-# Create columns for each variable we need to plot
+# Create columns for each variable we need to plot so that each variable is understandable
 data <- data %>%
   mutate(
     Former_Smoker = Smoking_Status == "Former Smoker",
@@ -56,7 +56,9 @@ plot_data$Variable <- gsub("_", " ", plot_data$Variable)
 overview_plot <- ggplot(plot_data, aes(x = Count, y = Variable, fill = factor(Dementia))) +
   geom_bar(stat = "identity", position = "identity") +
   scale_x_continuous(labels = abs) +
-  scale_fill_manual(values = c("steelblue", "darkred"), labels = c("Not demented", "Demented")) +
+  scale_fill_manual(values = c("steelblue", "darkred"), labels = c("Person without dementia",
+                                                           "Person with dementia")) +
+  # Add titles
   labs(
     x = "Number of People",
     y = "Variables",
@@ -64,9 +66,11 @@ overview_plot <- ggplot(plot_data, aes(x = Count, y = Variable, fill = factor(De
     fill = "Dementia Status",
     caption = "Source: dementia_patients_health_data.csv"
   ) +
+  # Make a cleaner theme
   theme_minimal() +
+  # Increase text size for better readability
   theme(axis.text.y = element_text(size = 12),
         axis.title = element_text(size = 14),
         plot.title = element_text(size = 16, hjust = 0.5))
-
+# Save plot as a png
 ggsave("overview_graphic.png", overview_plot)

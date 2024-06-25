@@ -7,20 +7,20 @@ data <- read.csv("data/dementia_patients_health_data.csv")
 data$Dementia <- factor(data$Dementia, levels = c(0, 1), labels = c("People with dementia", 
                                                                     "People without dementia"))
 
-# Specify the order of education levels
+# Specify the order of education levels from least years to most. 
 education_order <- c("No School",
                      "Primary School", 
                      "Secondary School", 
                      "Diploma/Degree")
 
-# Reorder the Education_Level factor
+# Reorder the Education_Level factor, this way it goes in a logical manner
 data$Education_Level <- factor(data$Education_Level, levels = education_order)
 
-# Create the faceted bar graph 
+# Create the faceted bar graph , with x as the different education levels
 ggplot(data, aes(x = Education_Level, fill = Dementia)) +
   geom_bar() +
   facet_grid(~ Dementia, scales = "free_y", switch = "x") +
-  # Add colors
+  # Add colors manually so they are the same among all graphs
   scale_fill_manual(values = c( "People with dementia" = "darkred", 
                                 "People without dementia" = "steelblue")) +
   # Add labels

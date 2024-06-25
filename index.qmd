@@ -4,9 +4,22 @@
 ## **Summary**
 The spread of dementia across different demographics appears to be associated with only 
 certain groups. The data sets used were sourced from Kaggle which contained de-identified data
-of a selection of patients. The data sets were individually analyzed and graphed to show relationships between the prevalence of dementia among different groups. From this, it was found that people with the gene APOE e4 are much more common among people with dementia.
+of a selection of patients. The data sets were individually analyzed and graphed to show relationships between the prevalence of dementia among different groups. From this, it was found that people with the gene APOE e4 (the gene most associated with having Alzheimer's) are much more common among people with dementia.
 
-## **Overview**
+
+## **Dementia Demographic Spread**
+
+ 
+```{r}
+#| label: Overview graph
+#| echo: false
+# Add the primary plot for the front page
+knitr::include_graphics("graphs/overview_graphic.png")
+```
+
+Interestingly, most other groups do not appear to have significant correlation between the populations of people with and without Dementia, except for the variable of having APOE e4. APOE e4 is a gene that is associated with a greatly increased risk for Alzheimer's.
+
+## **Overview of Dementia**
 Though commonly thought of as a disease, dementia is more of a group of symptoms 
 that impair cognitive function. These symptoms may be caused by a variety of other
 diseases, such as Alzheimer's, Huntington's, Lewy body, or multiple of these combined.
@@ -30,15 +43,3 @@ were once easy seem difficult.
 
 Now, with Dementia being considered a very common condition, it is more important than
 ever to understand the spread of this disease.
-
-## **Dementia Demographic Spread**
-
- 
-```{r}
-#| label: Overview graph
-#| echo: false
-# Add the primary plot for the front page
-knitr::include_graphics("graphs/overview_graphic.png")
-```
-
-Interestingly, most other groups do not appear to have significant correlation between the populations of people with and without Dementia, except for the variable of having APOE e4. APOE e4 is a gene that is associated with a greatly increased risk for Alzheimer's.
