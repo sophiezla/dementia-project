@@ -72,5 +72,5 @@ overview_plot <- ggplot(plot_data, aes(x = Count, y = Variable, fill = factor(De
   theme(axis.text.y = element_text(size = 12),
         axis.title = element_text(size = 14),
         plot.title = element_text(size = 16, hjust = 0.5))
-# Save plot as a png
-ggsave("overview_graphic.png", overview_plot)
+# Save plot as a png. The graph was too tall so width and height were specified for better formatting.
+ggsave("overview_graphic.png", overview_plot, width = 12, height = 6)

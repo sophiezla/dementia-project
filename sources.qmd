@@ -1,5 +1,5 @@
 ---
-title: <u>Sources</u>
+title: Sources
 ---
 The following sources were used in this project...
 
